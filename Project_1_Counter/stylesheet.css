@@ -1,0 +1,14 @@
+.box {
+	display: flex;
+	justify-content: center;
+	margin:  275px;
+}
+
+#count {
+	display: flex;
+	justify-content: center;
+}
+
+#subtraction {
+	margin-left: 55px;
+}
