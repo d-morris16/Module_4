@@ -11,18 +11,18 @@ or down one for each event and then input the new value into the count ID.
 */
 
 function addition(){
-	let currentState = document.getElementById("count").innerText++;
+	let currentState = document.getElementById("count").innerText;
 	console.log(currentState);
 
-	let newState = currentState + 1;
+	let newState = parseInt(currentState) + 1;
 	console.log(newState);
 	document.getElementById("count").innerText= newState;
 }
 
 function subtraction(){
-	let currentState = document.getElementById("count").innerText--;
-
-	let newState = currentState - 1;
-
+	let currentState = document.getElementById("count").innerText;
+	console.log(currentState);
+	let newState = parseInt(currentState) - 1;
+	console.log(newState);
 	document.getElementById("count").innerText= newState;
 }
